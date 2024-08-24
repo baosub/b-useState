@@ -3,6 +3,7 @@ import BinputString from "./Components/BinputString"
 import InformacionUsuario from "./Components/CinputObject"
 import ListaTareas from "./Components/DinputUsersList"
 import ContadorAvanzado from "./Components/EadvancedCounter"
+import Formulario from "./Components/FnameSurnameAgeForm"
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <InformacionUsuario/>
       <ListaTareas/>
       <ContadorAvanzado/>
+      <Formulario/>
     </div>
   )
 }
