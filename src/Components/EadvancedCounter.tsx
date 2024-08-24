@@ -1,6 +1,8 @@
 import { useState } from 'react';
 
 function ContadorAvanzado() {
+
+    
   // Estado para almacenar el valor del contador
   const [contador, setContador] = useState<number>(0);
 
@@ -16,6 +18,7 @@ function ContadorAvanzado() {
 
   return (
     <div>
+        <h2>Safer counter</h2>
       <p>Valor del contador: {contador}</p>
       <button onClick={incrementarSeguro}>Incrementar de forma segura</button>
       <button onClick={decrementarSeguro}>Decrementar de forma segura</button>
